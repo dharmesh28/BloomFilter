@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloomFilter", "BloomFilter\BloomFilter.csproj", "{0B012E39-CD9B-408E-87C0-8B4F16D32350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpellCheckerConsoleApp", "SpellCheckerConsoleApp\SpellCheckerConsoleApp.csproj", "{4C2B0BAB-E10D-49F2-BEE7-D2473B0C306D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B012E39-CD9B-408E-87C0-8B4F16D32350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B012E39-CD9B-408E-87C0-8B4F16D32350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B012E39-CD9B-408E-87C0-8B4F16D32350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B012E39-CD9B-408E-87C0-8B4F16D32350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2B0BAB-E10D-49F2-BEE7-D2473B0C306D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2B0BAB-E10D-49F2-BEE7-D2473B0C306D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2B0BAB-E10D-49F2-BEE7-D2473B0C306D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2B0BAB-E10D-49F2-BEE7-D2473B0C306D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4ADF5F3-6182-465D-B89F-E29D4C484D5F}
+	EndGlobalSection
+EndGlobal
