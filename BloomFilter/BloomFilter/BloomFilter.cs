@@ -110,6 +110,8 @@ namespace BloomFilter
 		/// <param name="item">The item.</param>
 		public void Add(T item)
 		{
+			if (item == null)
+				throw new ArgumentNullException(nameof(item), "Cannot insert null element in bloom Filter");
 			// start flipping bits for each hash of item
 			int primaryHash = item.GetHashCode();
 			int secondaryHash = this.SecondaryHashFunction(item);
@@ -127,6 +129,8 @@ namespace BloomFilter
 		/// <returns> The <see cref="bool"/>. </returns>
 		public bool Contains(T item)
 		{
+			if (item == null)
+				throw new ArgumentNullException(nameof(item), "Cannot insert null element in bloom Filter");
 			int primaryHash = item.GetHashCode();
 			int secondaryHash = this.SecondaryHashFunction(item);
 			for (int i = 0; i < this.NumberOfHashFunctions; i++)
