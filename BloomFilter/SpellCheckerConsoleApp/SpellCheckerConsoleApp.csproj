@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="misc\wordlist.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="misc\wordlist.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BloomFilter\BloomFilter.csproj" />
   </ItemGroup>
 
