@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BloomFilter
 {
-    public class BloomFilter<T>
+    public class BloomFilter<T> : IBloomFilter<T>
     {
 		public delegate int HashFunction(T input);
 

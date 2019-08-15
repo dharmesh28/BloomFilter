@@ -10,7 +10,7 @@ namespace SpellCheckerConsoleApp
 	{
 		private static SpellChecker SpellCheckerWithBloomFilter = new SpellChecker();
 		private static SpellChecker SpellCheckerWithoutBloomFilter = new SpellChecker(false);
-		private static int NumberOfIterations = 10000;
+		private static int NumberOfIterations = 100000;
 		private static int RandomWordLength = 5;
 
 		private static Random random = new Random();
